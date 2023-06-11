@@ -1,6 +1,6 @@
-## Ex-10
+## Ex-10:
 ## DATA MEMBERS IN CLASS
-### Aim:
+### AIM:
 To Write a Java program to create a class.
 ```
 Create a class named 'Member' having the following members:
@@ -19,17 +19,17 @@ a manager by making an object of both of these classes and print the same.
 ```
 
 ### Procedure:
-* Create a class named 'Member'.
-* Add the following data members to the 'Member' class: Name (String), Age (int), Phone number (String), Address (String), Salary (double).
-* Add a method named 'printSalary' to the 'Member' class, Inside the method, print the value of the 'Salary' data member.
-* Create a class named 'Employee' that inherits from the 'Member' class.
-* Create a class named 'Manager' that also inherits from the 'Member' class.
-* In the 'Main' class, create an object of the 'Employee' class and name it 'employee'.
-* Assign values to the data members of 'employee'. Create an object of the 'Manager' class and name it 'manager'.Assign values to the data members of 'manager'
-* Call the 'printSalary' method for both 'employee' and 'manager' objects to print their salaries.
+1. Create a class named 'Member'.
+2. Add the following data members to the 'Member' class: Name (String), Age (int), Phone number (String), Address (String), Salary (double).
+3. Add a method named 'printSalary' to the 'Member' class, Inside the method, print the value of the 'Salary' data member.
+4. Create a class named 'Employee' that inherits from the 'Member' class.
+5. Create a class named 'Manager' that also inherits from the 'Member' class.
+6. In the 'Main' class, create an object of the 'Employee' class and name it 'employee'.
+7. Assign values to the data members of 'employee'. Create an object of the 'Manager' class and name it 'manager'.Assign values to the data members of 'manager'
+8. Call the 'printSalary' method for both 'employee' and 'manager' objects to print their salaries.
 
-### Code:
-```
+### PROGRAM:
+```java
 public class Ex10
 {
     public static void main(String[] args)
@@ -97,8 +97,8 @@ class Member
 
 ```
 
-### Output:
+### OUTPUT:
 <img width="155" alt="10" src="https://github.com/KeerthikaNagarajan/Java-Ex-10/assets/93427089/f40a3416-a1f4-4dca-be45-a7bf032cb687">
 
-### Result:
+### RESULT:
 Thus, the output is verified.
